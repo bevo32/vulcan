@@ -1,0 +1,23 @@
+{
+  "name": "vulcan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build --watch --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevo32/vulcan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bevo32/vulcan/issues"
+  },
+  "homepage": "https://github.com/bevo32/vulcan#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
